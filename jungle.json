@@ -1,0 +1,1 @@
+{"yJANpdkGETQG":{"code":"$wood:s(\"gm_woodblock\").n(irand(16).ribbon(5,10)).scale(\"a3:major\").fast(16)\n  .degradeBy(.25)._scope()\n$synth:s(\"z_tan\").n(irand(8)).scale(\"a2:major\").fast(16).degradeBy(.5).gain(.5)","created_at":1760299280508,"id":"yJANpdkGETQG","collection":"user"}}

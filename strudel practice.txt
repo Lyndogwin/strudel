@@ -1,0 +1,12 @@
+setcpm(60)
+$: n("0 2 4 <[6,8] [7,9]>")
+.scale("A2:minor").sound("piano").gain(1.2).lpf(slider(232,0,1000)).delay(".5:.125")
+
+$: n("0 2 4 <[6,8] [7,9]>")
+.scale("A2:minor").sound("piano").gain(1.2).lpf().delay(".5:.125").hush()
+
+//drums
+$: s("bd [rim,sd]").gain(slider(0.452,0,1)).room(.5).lpf(slider(1054,0,2000))
+
+
+$: s("hh(<2 4>,16)").gain(slider(0.1068,0,.2)).room(.5).decay(.1)
